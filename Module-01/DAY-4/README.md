@@ -23,23 +23,34 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
 ## PROGRAM:
  ```
 /*
-Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Program to implement a class & objects using Java
+Developed by: ARVIND S
+RegisterNumber:  212222240012
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class Area 
+{
+       public void calculateArea() 
+       {
+        float length = 10;
+        float width = 20;
+        float area = length * width;
+        System.out.println("Area of Rectangle is " + area);
+       }
+       public static void main(String[] args) 
+       {
+       Area obj=new Area();
+       obj.calculateArea();
+       }
+}
+```
 
 ## OUTPUT:
-
-
+![437392910-b381fe96-a993-437d-9d4d-98d2cc383e19](https://github.com/user-attachments/assets/b5fd5afe-47c1-4db6-a138-15af271fec29)
 
 ## RESULT:
 Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
